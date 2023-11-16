@@ -1,0 +1,90 @@
+@font-face {
+    font-family: SourceSans3;
+    src: url(SourceSans3-VariableFont_wght.ttf);
+}
+
+html
+{
+    font-family: SourceSans3;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+body
+{
+    max-width: 1000px;
+    margin:0 auto; 
+}
+
+main
+{
+    margin-top: 15px;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.topbar
+{
+    background-color: #16416b;
+    overflow: hidden;
+}
+
+.topbar a
+{
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+.topbar a:hover
+{
+    background-color: white;
+    color: black;
+}
+
+
+table.charts tbody td.same{background:url('https://tubestatic.orf.at/mojo/1_3/storyserver/tube/oe3/images/charts_status_equal.png') no-repeat scroll center center}
+table.charts tbody td.new{background:url('https://tubestatic.orf.at/mojo/1_3/storyserver/tube/oe3/images/charts_status_new.png') no-repeat scroll center center}
+table.charts tbody td.up{background:url('https://tubestatic.orf.at/mojo/1_3/storyserver/tube/oe3/images/charts_status_up.png') no-repeat scroll center center}
+table.charts tbody td.down{background:url('https://tubestatic.orf.at/mojo/1_3/storyserver/tube/oe3/images/charts_status_down.png') no-repeat scroll center center}
+table.charts tbody td.ree{background:url('https://tubestatic.orf.at/mojo/1_3/storyserver/tube/oe3/images/charts_status_reentry.png') no-repeat scroll center center}
+
+table.charts tbody td.col1{width:30px}
+table.charts tbody td.col2{color:#dc3040;font-weight:bold}
+table.charts tbody td.col2,table.charts tbody td.col3,table.charts tbody td.col4{width:20px; padding-left: 4px; text-align: center;}
+table.charts tbody td.col5{padding-left: 10px; width:200px;overflow:hidden}
+
+table.charts tbody td.col6
+{
+    width:235px;
+    overflow:hidden;
+    padding-left: 10px;
+    font-weight:bold
+}
+
+table.charts th.col1{width:30px; padding: 4px 8px;}
+table.charts th.col2,table.charts th.col3,table.charts th.col4{width:15px;}
+table.charts th.col5{padding-left: 10px;overflow:hidden;text-align: left;}
+table.charts th.col6{font-weight:bold; padding-left: 10px;text-align: left;}
+
+table.charts
+{
+    height: 20px;
+    width: 724px;
+    margin-left: 27px;
+}
+
+table.charts tbody tr.odd
+{
+    background-color: #f0f1f4;
+}
