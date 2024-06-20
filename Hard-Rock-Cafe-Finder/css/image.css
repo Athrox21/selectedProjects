@@ -1,0 +1,28 @@
+html
+{
+    background-image: url("5486285.jpg");
+}
+
+body
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+}
+
+main
+{
+    font-size: 120%;
+    text-align: center;
+    padding-left: 70px;
+    padding-bottom: 100%;
+}
+
+#hardRockLogo
+{
+    vertical-align:middle;
+    max-width: 15%;
+    max-height: 15%;
+    margin: 0px 15px;
+}

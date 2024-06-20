@@ -1,0 +1,30 @@
+<html>
+    <!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+        <title>Hard Rock Cafe Finder</title>
+      
+        <link rel="stylesheet" href="css/image.css">
+        <meta name="description" content="">
+      
+      </head>
+
+
+      <main>
+
+        <h1>Which <img id="hardRockLogo" src="css/Logo_Hard_Rock_Cafe_neutral.svg.png"> is the furthest away from your postion?</h1>
+
+        <p>
+          Type where you're currently are in this field: 
+          <input id="searchtext" name ="searchtext" type ="text">
+        <button onclick="search()">Search</button>
+        </p>
+        <p>
+          <select id="results" name="results"></select>
+        </p>
+        <p id="fetchedresults"> </p>
+      </main>
+      <script src="script.js"></script>
+</html>
