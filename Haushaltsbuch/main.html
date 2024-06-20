@@ -1,0 +1,63 @@
+<html>
+    <!doctype html>
+    <html class="no-js" lang="">
+    
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+      <title>Haushaltsbuch</title>
+    
+      <link rel="stylesheet" href="image.css">
+      <meta name="description" content="">
+    
+
+    </head>
+
+    <body>
+        <main>
+            <h1>Haushaltsbuch</h1>
+            <p>Budget, mit dem gearbeitetet wird: <input id="startfeld" type="number"></p>
+         <table id="myTable">
+    
+            <tr class="headOfTable">
+                <th>Name</th>
+                <th>Datum</th>
+                <th>Art der Transaktion</th>
+                <th>Betrag</th>
+                <th>Neuer Kontostand</th>
+				<th><button id="clear">Alles löschen</button></th>
+            </tr>
+            <tr class="headOfTable">
+                <th><input id="name" type="text"></th>
+                <th class="datumZeile"><input id="date" class="datefield" type="date"></th>
+                <th>
+					<select id="art" name="art">
+                        <option value="E - Gehalt">E - Gehalt</option>
+                        <option value="E - Bareinlage">E - Bareinlage</option>
+                        <option value="E - Sonstiges">E - Sonstiges</option>
+                        <option value="A - Wohnkosten">A - Wohnkosten</option>
+                        <option value="A - Lebensmittel">A - Lebensmittel</option>
+                        <option value="A - Essen gehen">A - Essen gehen</option>
+                        <option value="A - Genussmittel">A - Genussmittel</option>
+                        <option value="A - Unterhaltung">A - Unterhaltung</option>
+                        <option value="A - Fahrtkosten"> A - Fahrtkosten</option>
+                        <option value="A - Hygiene">A - Hygiene</option>
+                        <option value="A - Sonstiges">A - Sonstiges</option>
+					</select>
+                </th>
+                <th><input id="betrag" type="number"> </th>
+                <th><input id="kontostand" type="text" readonly> </th>
+				<th><button id="addrow">Neuer Eintrag</button></th>
+            </tr>
+            
+            <tbody id="einträge">
+                
+            </tbody>
+         </table>
+    
+        </main>
+        <script src="script.js"></script>
+    </body>
+
+</html>
